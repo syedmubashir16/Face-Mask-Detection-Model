@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.idea/
+.vscode/
+.cache/
+tmp/
+
+# Data
+datasets/
+runs/
+outputs/
+
+# Keep artifacts (model weights)
+!artifacts/
+!artifacts/best.pt
+!artifacts/best.onnx

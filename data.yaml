@@ -1,0 +1,8 @@
+path: ../datasets/face-mask-yolo  # dataset root dir relative to train.py execution or absolute
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: mask
+  1: no_mask
